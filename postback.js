@@ -6,5 +6,6 @@ function loadDoc() {
     }
   };
   xhttp.open("POST", "https://postmarket.pro/cpa/48686", true);
+  xhttp.setRequestHeader("Permissions-Policy", "interest-cohort=()");
   xhttp.send();
 }
